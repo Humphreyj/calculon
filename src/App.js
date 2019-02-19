@@ -14,7 +14,7 @@ class App extends Component {
     this.setState({
       input: this.state.input + val
     })
-  }
+  }//concatinates the input to val
 
   handleEqual = () => {
     this.setState({
